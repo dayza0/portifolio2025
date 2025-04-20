@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portifólio</title>
 </head>
@@ -20,23 +21,112 @@
         <p class="badge text-bg-secondary">Formação de Talentos</p>
     </div>
     </header>
-    <main clas="container">
-        <h2>meus projetos</h2>
+    <main class="container mt-5">
+        <h2>Momentos Históricos</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/corinthians-1914_mk.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Fundação do Clube (1910)</h5>
+                      <p class="card-text">O Corinthians foi fundado em 1º de setembro de 1910 por um grupo de operários do bairro do Bom Retiro, inspirado por um time inglês chamado Corinthian FC. Desde o começo, o clube carregou o apelido de "Time do Povo".</p>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/17368607629547ad6b651e2087bac67651aa92cd0d.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Campeão Mundial de Clubes </h5>
+                      <p class="card-text">O Corinthians foi o primeiro campeão mundial de clubes da FIFA, vencendo o Vasco nos pênaltis, com brilho de Dida e Edílson.</p>
+                      <button type="button" class="btn btn-link"  data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/w600_h384_pdt_ft1_208887.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Gol de Ronaldo Fenômeno – Clássico contra o Palmeiras (2009)</h5>
+                      <p class="card-text">Ronaldo voltava de lesão, fora do peso, desacreditado. Em seu terceiro jogo, ele entra no segundo tempo e marca um golaço com toque sutil e explosão da torcida. A comemoração no alambrado virou imagem clássica.</p>
+                      <button type="button" class="btn btn-link"  data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
                     </div>
                   </div>
             </div>
         </div>
-
     </main>
+
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Fundação do Clube (1910)</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Em 1º de setembro de 1910, após assistirem a um jogo do time inglês Corinthian, cinco operários paulistanos decidiram fundar um clube de futebol popular. No bairro do Bom Retiro, ao encontrarem um terreno baldio chamado “Lenheiro”, surgiu a ideia de criar o Corinthians. Com o apoio de mais oito moradores, formaram um grupo de 13 sócios-fundadores. As primeiras reuniões aconteceram nas casas dos integrantes, e Miguel Bataglia tornou-se o primeiro presidente do clube, ainda sem nome definido.</p>
+            <img src="img/simbolo_fundaaao_8z.jpg" class="img-fluid w-100"
+            alt="imagem representativa">
+            </div>
+            <div class="modal-footer">
+             <a href="">Ver projeto ao vivo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Campeão Mundial de Clubes</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Em 14 de janeiro de 2000, o Corinthians conquistou seu primeiro título do Mundial de Clubes da FIFA, após vencer o Vasco nos pênaltis por 4 a 3, no estádio do Maracanã, com mais de 70 mil torcedores presentes. Após empate sem gols no tempo normal e na prorrogação, brilhou o goleiro Dida, defendendo uma das cobranças. Mesmo com Marcelinho desperdiçando a chance de fechar a disputa, Edmundo errou em seguida, garantindo o título ao Timão. A conquista entrou para a história como um dos maiores momentos do clube e foi marcada pela "segunda Invasão Corinthiana" ao Rio.</p>
+            <img src="img/images.jpg" class="img-fluid w-100"
+            alt="imagem representativa">
+            </div>
+            <div class="modal-footer">
+             <a href="">Ver projeto ao vivo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Gol de Ronaldo Fenômeno – Clássico contra o Palmeiras (2009)</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Há 15 anos, em 8 de março de 2009, Ronaldo Fenômeno marcou seu primeiro gol pelo Corinthians em um clássico contra o Palmeiras pelo Paulistão. Após entrar no segundo tempo, Ronaldo empatou o jogo de cabeça, nos acréscimos, após escanteio de Douglas. O Corinthians venceu o Campeonato Paulista e a Copa do Brasil em 2009, com Ronaldo contribuindo para a conquista.</p>
+            <img src="img/5734a063df07c.jpeg" class="img-fluid w-100"
+            alt="imagem representativa">
+            </div>
+            <div class="modal-footer">
+             <a href="">Ver projeto ao vivo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-instagram"></i>
+            <a href="https://www.instagram.com/corinthians/">Instagram</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Daiany</p>
+    </footer>
+
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
-</html>
 
+</html>
